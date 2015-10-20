@@ -1,0 +1,30 @@
+Plan
+Joysticks
+Left horizontal : base rotation (h-bridge)
+Left vertical : Finesse Boom angle (0-180 degree servo)
+Right Horizontal : String wind/unwind (continuous rotation servo)
+Right Vertical : Coarse Boom angle (0-180 degree servo)
+Right Thumb : Electromagnet On/off
+Left Thumb : Automatic/manual switch
+
+base - use absolute position
+// base 45, rotate to 45 degrees
+base adjust -  use relative position
+// base adjust 45, rotate by 45 degrees
+
+boom - use absolute position
+// boom 45, rotate to 45 degrees
+boom adjust -  use relative position
+// boom adjust 45, rotate by 45 degrees
+
+rotation servo
+//unwind 1 , go down by 1 unit , think about negatives later
+// wind 1, go up by 1 unit
+
+electromagnet
+//EM on , switch on
+//EM off, switch off
+switch to manual
+//manual
++any other commands
+// later
